@@ -1,2 +1,20 @@
 PROMPT="%(?.%F{green}√.%F{red}!)%f %B%F{240}%2~%f%b %# "
 PATH="$HOME/workdir/bin:$PATH"
+
+alias t="terraform"
+alias ti="terraform init"
+
+alias tv="terraform validate"
+alias tp="terraform plan"
+alias ta="terraform apply"
+alias taa="terraform apply -auto-approve"
+alias td="terraform destroy"
+alias tda="terraform destroy -auto-approve"
+
+alias tgi="terraform init"
+alias tgv="terraform validate"
+alias tgp="terraform plan"
+alias tga="terraform apply"
+alias tgaa="terraform apply -auto-approve"
+alias tgd="terraform destroy"
+alias tgda="terraform destroy -auto-approve"

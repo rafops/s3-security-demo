@@ -21,7 +21,6 @@ docker_run() {
     --entrypoint "$entrypoint" \
     -v "${SOURCE_DIR}:/root/workdir" \
     -v "${HOME}/.aws:/root/.aws" \
-    -v "${HOME}/.gnupg:/root/.gnupg" \
     -e AWS_PROFILE \
     -e AWS_REGION \
     -e AWS_DEFAULT_REGION \

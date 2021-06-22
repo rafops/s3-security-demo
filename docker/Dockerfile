@@ -2,8 +2,8 @@ FROM hashicorp/terraform:1.0.0
 
 # Install system dependencies
 RUN apk update && apk --no-cache add \
-    gnupg aws-cli \
-    bash zsh
+    bash zsh \
+    curl aws-cli jq
 
 WORKDIR /root/workdir
 
