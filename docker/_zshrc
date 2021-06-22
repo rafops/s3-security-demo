@@ -1,0 +1,2 @@
+PROMPT="%(?.%F{green}√.%F{red}!)%f %B%F{240}%2~%f%b %# "
+PATH="$HOME/workdir/bin:$PATH"
